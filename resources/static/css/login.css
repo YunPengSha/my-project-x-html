@@ -38,8 +38,8 @@ div.tableRow > input {
     width: 200px;
 }
 
-div.formButton > input {
-    width: 55px;
+div.formButton > button {
+    width: 80px;
 }
 
 div.main {
