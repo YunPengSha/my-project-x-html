@@ -1,0 +1,59 @@
+body {
+    background: #ef605e url(../picture/dog.jpg) top left;
+    background-size: 100%, 100%;
+    margin: 20px;
+}
+
+h1.productName {
+    color: white;
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    margin: 150px 0px 100px 0px;
+    font-size: 80px;
+}
+
+form {
+    display: table;
+    padding: 10px;
+    border: thin dotted #7e7e7e;
+    background-color: #e1ceb8;
+}
+
+div.tableRow label:first-child {
+    text-align: right;
+}
+
+div.formButton label:first-child {
+    text-align: right;
+}
+
+div.tableRow > p, div.tableRow > label, div.tableRow > input, div.formButton > input, div.formButton > label {
+    display: table-cell;
+    vertical-align: top;
+    padding: 5px;
+}
+
+div.tableRow > input {
+    width: 200px;
+}
+
+div.formButton > input {
+    width: 55px;
+}
+
+div.main {
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+div.tableRow, div.formButton {
+    display: table-row;
+}
+
+form textarea {
+    display: table-cell;
+    width: 700px;
+    height: 200px;
+}
