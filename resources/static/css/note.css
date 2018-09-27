@@ -3,8 +3,13 @@ body {
     font-size: small;
 }
 
+.exit {
+    float: right;
+}
+
 blockquote {
     font-style: italic;
+    margin: 100px 100px 0px 0px;
 }
 
 table {
